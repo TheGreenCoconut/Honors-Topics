@@ -1,3 +1,4 @@
+empty.txt: 
 notes.txt: Wow these notes are fire
 log.txt: Whatever you were doing before really sucked
 data.txt: Man take a look at all of this data

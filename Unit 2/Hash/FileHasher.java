@@ -17,11 +17,13 @@ public class FileHasher {
         writeFile(files[1], "Man take a look at all of this data");
         writeFile(files[2], "Whatever you were doing before really sucked");
 
+        makeBackup(f);
+
         for (String str : files) {
             System.out.println(hashFile(str));
         }
 
-        makeBackup(f);
+        System.out.println(hashFile("./JavaFileSystem/empty.txt"));
     }
 
     private static void writeFile(String path, String content) {
